@@ -11,11 +11,12 @@ setup(
     description="A hyper-fast local vector database for use with LLM Agents.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/jdagdelen/hyperdb",
+    url="https://github.com/kielbry12/hyperDB-HuggingFace",
     packages=find_packages(),
     install_requires=[
         "numpy",
-        "openai",
+        "sentence-transformers",
+        "huggingface-hub",
     ],
     classifiers=[
         "Development Status :: 3 - Alpha",
